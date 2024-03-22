@@ -12,3 +12,5 @@ if SHIELD_AM_HATSU_LEFT || SHIELD_AM_HATSU_RIGHT
 
 config ZMK_SPLIT
 	default y
+	
+endif
