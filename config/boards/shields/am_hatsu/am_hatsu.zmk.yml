@@ -3,7 +3,7 @@ id: am_hatsu
 name: AM-Hatsu
 type: shield
 url: https://github.com/Bastardkb/TBK-Mini
-requires: [Nice!Nano]
+requires: [Nice!Nano v2]
 exposes: [i2c_oled]
 features:
   - keys
