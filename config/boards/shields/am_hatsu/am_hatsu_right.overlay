@@ -11,14 +11,6 @@
 };
 
 &kscan0 {
-	// col-gpios
-	// 	= <&gpio0 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // B2
-	// 	, <&gpio0 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // B3
-	// 	, <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // B1
-	// 	, <&gpio0 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // C6
-	// 	, <&gpio0 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // E6
-	// 	, <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // B4
-	// 	;
 	col-gpios
 	= <&pro_micro 10 GPIO_ACTIVE_HIGH> // col6 in the schematic
 	, <&pro_micro 16 GPIO_ACTIVE_HIGH> // col5 in the schematic
