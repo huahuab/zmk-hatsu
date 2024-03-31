@@ -45,8 +45,8 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)    RC(2,6)  RC(2,7) RC(2,8) RC(2
         = <&pro_micro 7 GPIO_ACTIVE_HIGH> // Row A from the schematic file
         , <&pro_micro 8 GPIO_ACTIVE_HIGH> // Row B from the schematic file
         , <&pro_micro 9 GPIO_ACTIVE_HIGH> // Row C from the schematic file
-        , <&pro_micro 20 GPIO_ACTIVE_HIGH> // Row D from the schematic file
-        , <&pro_micro 21 GPIO_ACTIVE_HIGH> // Row E from the schematic file
+        , <&pro_micro 21 GPIO_ACTIVE_HIGH> // Row D from the schematic file
+        , <&pro_micro 20 GPIO_ACTIVE_HIGH> // Row E from the schematic file
         ;
 	};
 
@@ -71,3 +71,4 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)    RC(2,6)  RC(2,7) RC(2,8) RC(2
         prechargep = <0x22>;
     };
 };
+s'd'f'g'x'c'v'b
