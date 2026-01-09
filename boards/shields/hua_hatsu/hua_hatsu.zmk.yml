@@ -1,5 +1,5 @@
 file_format: "1"
-id: am_hatsu
+id: hua_hatsu
 name: AM-Hatsu
 type: shield
 url: https://github.com/Bastardkb/TBK-Mini
@@ -10,5 +10,5 @@ features:
   - display
   - underglow
 siblings:
-  - am_hatsu_left
-  - am_hatsu_right
+  - hua_hatsu_left
+  - hua_hatsu_right

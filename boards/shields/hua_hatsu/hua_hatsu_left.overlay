@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "am_hatsu.dtsi"
+#include "hua_hatsu.dtsi"
 
 &kscan0 {
 	// col-gpios
