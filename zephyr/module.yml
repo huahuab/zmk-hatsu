@@ -1,1 +1,4 @@
-name: zmk-keyboard-AM-Hatsu
+name: zmk-keyboard-hua_hatsu
+build:
+  settings:
+    board_root: .
