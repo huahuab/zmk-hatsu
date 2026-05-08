@@ -1,11 +1,12 @@
 file_format: "1"
 id: hua_hatsu
-name: AM-Hatsu
+name: hua_hatsu
 type: shield
-url: https://github.com/Bastardkb/TBK-Mini
+url: https://github.com/huahuab/hua_hatsu
 requires: [Nice!Nano v2]
 exposes: [i2c_oled]
 features:
+  - studio
   - keys
   - display
   - underglow

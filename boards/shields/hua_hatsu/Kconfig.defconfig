@@ -3,7 +3,7 @@
 # ##########################
 if SHIELD_HUA_HATSU_LEFT
     config ZMK_KEYBOARD_NAME
-        default "Am-Hatsu"
+        default "Hua_Hatsu"
 
     # v0.3.0正确的主设备配置项
     config ZMK_SPLIT_ROLE_CENTRAL
