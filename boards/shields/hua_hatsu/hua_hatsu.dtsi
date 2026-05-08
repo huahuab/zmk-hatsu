@@ -111,8 +111,8 @@ hua_hatsu_layout: hua_hatsu_layout {
     oled: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
-        width = 128;
-        height = 32;
+        width = <128>;
+        height = <32>;
         segment-offset = <0>;
         page-offset = <0>;
         display-offset = <0>;
