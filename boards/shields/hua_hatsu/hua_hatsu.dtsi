@@ -30,7 +30,7 @@
     // ===================== 物理布局 =====================
     hua_hatsu_layout: hua_hatsu_layout {
         compatible = "zmk,physical-layout";
-        zmk,matrix_transform = &default_transform;
+        transform = &default_transform;
         display-name = "Hua_Hatsu";
         keys
             // 第1行
