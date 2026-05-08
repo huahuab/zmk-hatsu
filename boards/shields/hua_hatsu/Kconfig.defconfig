@@ -1,43 +1,62 @@
+# ##########################
+# 左手主设备专属配置
+# ##########################
 if SHIELD_HUA_HATSU_LEFT
+    config ZMK_KEYBOARD_NAME
+        default "Am-Hatsu"
 
-config ZMK_KEYBOARD_NAME
-	default "Am-Hatsu"
+    # v0.3.0正确的主设备配置项
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
 
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
-
+    # 主设备要连接的从设备数量
+    config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+        default 1
 endif
 
+# ##########################
+# 右手从设备专属配置
+# ##########################
+if SHIELD_HUA_HATSU_RIGHT
+    # 【核心】把右手设为从设备
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default n
+endif
+
+# ##########################
+# 左右半区通用配置
+# ##########################
 if SHIELD_HUA_HATSU_LEFT || SHIELD_HUA_HATSU_RIGHT
+    # 开启分体键盘框架
+    config ZMK_SPLIT
+        default y
 
-config ZMK_SPLIT
-	default y
+    # 【新增】开启蓝牙分体通信
+    config ZMK_SPLIT_BLE
+        default y
 
-if ZMK_DISPLAY
+    # OLED屏幕配置
+    if ZMK_DISPLAY
+        config I2C
+            default y
 
-config I2C
-	default y
+        config SSD1306
+            default y
+    endif # ZMK_DISPLAY
 
-config SSD1306
-	default y
+    # LVGL配置
+    if LVGL
+        config LV_Z_VDB_SIZE
+            default 64
 
-endif # ZMK_DISPLAY
+        config LV_DPI_DEF
+            default 148
 
-if LVGL
+        config LV_Z_BITS_PER_PIXEL
+            default 1
 
-config LV_Z_VDB_SIZE
-	default 64
-
-config LV_DPI_DEF
-	default 148
-
-config LV_Z_BITS_PER_PIXEL
-	default 1
-
-choice LV_COLOR_DEPTH
-	default LV_COLOR_DEPTH_1
-endchoice
-
-endif # LVGL
-
-endif
+        choice LV_COLOR_DEPTH
+            default LV_COLOR_DEPTH_1
+        endchoice
+    endif # LVGL
+endif # 通用配置结束
