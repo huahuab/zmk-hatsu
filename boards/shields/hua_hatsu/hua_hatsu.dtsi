@@ -82,15 +82,15 @@
             , <&key_physical_attrs 100 100 1200  300       0     0     0>
             , <&key_physical_attrs 100 100 1300  300       0     0     0>
             // 第五/六行 左边
-            , <&key_physical_attrs 100 100  565  545    1400     0     0>
-            , <&key_physical_attrs 100 100  590  445    1400     0     0>
-            , <&key_physical_attrs 100 100  690  470    1400     0     0>
-            , <&key_physical_attrs 100 100  665  570    1400     0     0>
+            , <&key_physical_attrs 100 100  565  645    6500     0     0>
+            , <&key_physical_attrs 100 100  535  545    6500     0     0>
+            , <&key_physical_attrs 100 100  635  500    6500     0     0>
+            , <&key_physical_attrs 100 100  665  600    6500     0     0>
             // 第五/六行 右边
-            , <&key_physical_attrs 100 100  839  595 (-1400)     0     0>
-            , <&key_physical_attrs 100 100  814  495 (-1400)     0     0>
-            , <&key_physical_attrs 100 100  914  470 (-1400)     0     0>
-            , <&key_physical_attrs 100 100  939  570 (-1400)     0     0>
+            , <&key_physical_attrs 100 100  900  690 (-6500)     0     0>
+            , <&key_physical_attrs 100 100  930  590 (-6500)     0     0>
+            , <&key_physical_attrs 100 100 1030  630 (-6500)     0     0>
+            , <&key_physical_attrs 100 100 1000  735 (-6500)     0     0>
             ;
     };
 
