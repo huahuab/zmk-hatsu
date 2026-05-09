@@ -3,7 +3,7 @@ id: hua_hatsu
 name: hua_hatsu
 type: shield
 url: https://github.com/huahuab/hua_hatsu
-requires: [Nice!Nano v2]
+requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - studio
